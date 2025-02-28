@@ -1,0 +1,43 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+env/
+
+# Build and distribution artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Testing and coverage
+.coverage
+coverage.xml
+*.cover
+htmlcov/
+
+# Editor and IDE files
+*.swp
+*.swo
+.vscode/
+.idea/
+*.sublime-*
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.bak
+*.tmp
+*.log
+
+# Local test directories created during runtime
+ledger_data/
+follower_data/
+test_store/
+test_store_follower/
