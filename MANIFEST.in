@@ -2,3 +2,4 @@ include LICENSE
 include README.md
 recursive-include examples *.py
 recursive-include tests *.py
+recursive-include tenzro_store *.py
